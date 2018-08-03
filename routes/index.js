@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 /* GET test page. */
 router.get('/helicopterson', function(req, res, next){
-  res.render('index', { title: 'Teste', status: 'testante'});
+  res.render('bio');
 })
 
 
